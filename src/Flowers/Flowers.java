@@ -38,7 +38,7 @@ public class Flowers {
         Bouquet bouquet = new Bouquet();
         System.out.println("Цена букета : " + bouquet.getPrice(flowers, accessories) + "$");
 
-        System.out.println(sortFreshFlowers(1).toString());
+        System.out.println(sortFreshFlowers(1));
     }
 
         public static ArrayList<Flower> sortFreshFlowers(int dayOfLife){
@@ -52,7 +52,7 @@ public class Flowers {
 
 abstract class Flower {
 
-    private String name;
+   String name;
     private double price;
 
     private int dayOfLife;
