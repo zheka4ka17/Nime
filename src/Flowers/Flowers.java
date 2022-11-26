@@ -1,7 +1,9 @@
 package Flowers;
 
 import java.util.ArrayList;
-
+/*1. Цветочница. Определить иерархию цветов. Создать несколько объектов-
+цветов. Собрать букет (используя аксессуары) с определением его стоимо-
+сти. Провести сортировку цветов в букете на основе уровня свежести.*/
 public class Flowers {
     private static ArrayList<Flower> flowers;
     private static ArrayList<Flower> freshFlowers;
@@ -81,6 +83,7 @@ abstract class Flower {
     }
 
     public int getDayOfLife() {
+
         return dayOfLife;
     }
 
