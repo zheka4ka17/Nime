@@ -3,6 +3,10 @@ package BicycleAmmunition;
 import java.util.ArrayList;
 
 public class BicycleAmmunition {
+    /*Мотоциклист. Определить иерархию амуниции. Экипировать мотоцикли-
+ста. Подсчитать стоимость. Провести сортировку амуниции на основе веса.
+Найти элементы амуниции, соответствующие заданному диапазону пара-
+метров цены.*/
   private static  ArrayList<Ammunition> bicycleSet;
     public static void main(String[] args) {
         Ammunition helmet = new Helmet(3.2, 150, "Nike", "x1");
